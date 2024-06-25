@@ -3,9 +3,12 @@ theme:
   name: material
 
 nav:
-  - Introdução
-  - HTML
-  - CSS
-  - JavaScript
-  - TypeScript
-  - Angular
+  - Introdução: index.md
+  - HTML:
+      - Introdução: html/introducao/index.md
+      - Estrutura Base: html/estrutura-base/index.md
+      - Elementos Iniciais: html/elementos-iniciais/index.md
+  - CSS: css/index.md
+  - JavaScript: js/index.md
+  - TypeScript: ts/index.md
+  - Angular: angular/index.md
