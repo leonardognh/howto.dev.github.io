@@ -1,4 +1,4 @@
-site_name: Meu Projeto
+site_name: HowTo.Dev
 docs_dir: docs/
 theme:
   name: material
