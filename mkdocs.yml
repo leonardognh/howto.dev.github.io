@@ -1,4 +1,5 @@
 site_name: Meu Projeto
+docs_dir: docs/
 theme:
   name: material
 
@@ -8,6 +9,7 @@ nav:
       - Introdução: html/introducao/index.md
       - Estrutura Base: html/estrutura-base/index.md
       - Elementos Iniciais: html/elementos-iniciais/index.md
+      - Elementos Avançados: html/elementos-avancados/index.md
   - CSS: css/index.md
   - JavaScript: js/index.md
   - TypeScript: ts/index.md
