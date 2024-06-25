@@ -2,6 +2,25 @@
 
 ## Para Tag `<head>`
 
+### Título da Página `<title>`
+
+Que tipo de metadados sobre a página da web o elemento `<head>` pode conter?
+
+Se você navegar até o catálogo da Codecademy e olhar na parte superior do seu navegador, notará as palavras Todos os cursos e tutoriais | Codecademy, que é o título da página web.
+
+A guia do navegador exibe o título especificado na tag `<title>`. A tag `<title>` está sempre dentro do `<head>`.
+
+```
+<!DOCTYPEhtml>
+<html>
+  <cabeça>
+    <title>Meu diário de codificação</title>
+  </head>
+</html>
+```
+
+Se abríssemos um arquivo contendo o código HTML do exemplo acima, o navegador exibiria as palavras My Coding Journal na barra de título (ou no título da guia).
+
 ## Para Tag `<body>`
 
 ### Títulos `<h#>`
@@ -210,3 +229,100 @@ Neste exemplo, a fonte de vídeo (src) é “myVideo.mp4”. A fonte pode ser um
 Após o atributo src, os atributos width e height são usados ​​para definir o tamanho do vídeo exibido no navegador. O atributo de controles instrui o navegador a incluir controles básicos de vídeo, como pausar e reproduzir.
 
 O texto Vídeo não suportado entre as tags de abertura e fechamento do vídeo só será exibido se o navegador não conseguir carregar o vídeo.
+
+### Link para outra página `<a>`
+
+Um dos aspectos poderosos do HTML (e da Internet) é a capacidade de vincular a outras páginas da web.
+
+Você pode adicionar links a uma página da web adicionando um elemento âncora `<a>` e incluindo o texto do link entre as tags de abertura e fechamento.
+
+`<a>Este é um link para a Wikipédia</a>`
+
+Espere um minuto! Tecnicamente, o link do exemplo acima está incompleto. Como exatamente o link acima deve funcionar se não houver um URL que leve os usuários à página real da Wikipedia?
+
+O elemento âncora no exemplo acima está incompleto sem o atributo href. Este atributo significa referência de hipertexto e é usado para vincular a um caminho ou endereço onde um arquivo está localizado (seja no seu computador ou em outro local). Os caminhos fornecidos para o atributo href geralmente são URLs.
+
+`<a href="https://www.wikipedia.org/">Este é um link para a Wikipédia</a>`
+
+No exemplo acima, o atributo href foi definido como o valor da URL https://www.wikipedia.org/. O exemplo agora mostra o uso correto de um elemento âncora.
+
+Ao ler a documentação técnica, você pode encontrar o termo hiperlink. Não se preocupe, este é simplesmente o termo técnico para link. Esses termos são frequentemente usados ​​de forma intercambiável.
+
+#### Abrir link em outra aba
+
+Você já clicou em um link e observou a página da web resultante aberta em uma nova janela do navegador? Nesse caso, você pode agradecer ao atributo `target` do elemento `<a>`.
+
+O atributo `target` especifica como um link deve ser aberto.
+
+É possível que um ou mais links em sua página da web direcionem para um site totalmente diferente. Nesse caso, você pode querer que os usuários leiam o site vinculado, mas espere que eles retornem à sua página da web. É exatamente nesse momento que o atributo `target` é útil!
+
+Para que um link seja aberto em uma nova janela, o atributo `target` requer um valor `_blank`. O atributo `target` pode ser adicionado diretamente à tag de abertura do elemento âncora, assim como o atributo `href`.
+
+`<a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">O urso pardo</a>`
+
+No exemplo acima, definir o atributo target como `_blank` instrui o navegador a abrir a página relevante da Wikipedia em uma nova janela.
+
+### Link para página relativa
+
+Até agora você aprendeu como criar links para páginas da web externas. Muitos sites também possuem links para páginas internas da web, como Home, About e Contact.
+
+Antes de aprendermos como vincular páginas internas, vamos estabelecer onde nossos arquivos estão armazenados. Ao criar sites estáticos de várias páginas, os desenvolvedores da web geralmente armazenam arquivos HTML no diretório raiz ou em uma pasta principal onde todos os arquivos do projeto são armazenados. À medida que o tamanho dos projetos criados aumenta, você pode usar pastas adicionais dentro da pasta principal do projeto para organizar seu código.
+
+```
+pasta de projeto/
+|—— sobre.html
+|—— contato.html
+|—— índice.html
+```
+
+O exemplo acima mostra três arquivos diferentes – <strong>about.html</strong>, <strong>contact.html</strong> e <strong>index.html</strong> em uma pasta.
+
+Os arquivos HTML geralmente são armazenados na mesma pasta, conforme mostrado no exemplo acima. Se o navegador estiver exibindo index.html, ele também saberá que about.html e contact.html estão na mesma pasta. Como os arquivos são armazenados na mesma pasta, podemos vincular páginas da web usando um caminho relativo.
+
+`<a href="./contact.html">Contato</a>`
+
+Neste exemplo, a tag `<a>` é usada com um caminho relativo para vincular o arquivo HTML atual ao arquivo contact.html na mesma pasta. Na página da web, Contato aparecerá como um link.
+
+Um caminho relativo é um nome de arquivo que mostra o caminho para um arquivo local (um arquivo no mesmo site, como `./index.html`) versus um caminho absoluto (um URL completo, como `https://www.google.com/search/howto-html` que está armazenado em uma pasta diferente). O `./` em `./index.html` diz ao navegador para procurar o arquivo na pasta atual.
+
+### Link em outros elementos
+
+Você provavelmente já visitou sites onde nem todos os links eram compostos de texto. Talvez os links em que você clicou fossem imagens ou alguma outra forma de conteúdo.
+
+Até agora, adicionamos links compostos apenas de texto, como o seguinte:
+
+`<a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank">Espinhoso</a>`
+
+Links somente de texto, entretanto, diminuiriam significativamente sua flexibilidade como desenvolvedor web!
+
+Felizmente, o HTML permite transformar praticamente qualquer elemento em um link, envolvendo esse elemento com um elemento âncora. Com esta técnica, é possível transformar imagens em links simplesmente envolvendo o elemento `<img>` com um elemento `<a>`.
+
+`<a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank"><img src="https://www.Prickly_Pear_Closeup.jpg" alt="Uma fruta vermelha de pera espinhosa"/> </a>`
+
+No exemplo acima, a imagem de uma pera espinhosa foi transformada em um link envolvendo a parte externa do elemento `<img>` com um elemento `<a>`.
+
+### Link para item da página
+
+Neste ponto, temos todo o conteúdo que queremos em nossa página. Como temos tanto conteúdo, nem tudo cabe na tela. Como tornamos mais fácil para um usuário ir para diferentes partes de nossa página?
+
+Quando os usuários visitam nosso site, queremos que eles possam clicar em um link e fazer com que a página role automaticamente para uma seção específica.
+
+Para vincular a um alvo na mesma página, devemos dar um ID ao alvo, como este:
+
+```
+<p id="top">Este é o topo da página!</p>
+<h1 id="bottom">Este é o fundo! </h1>
+```
+
+Neste exemplo, o elemento `<p>` recebe um id `top` e o elemento `<h1>` recebe `bottom`. Um ID pode ser adicionado à maioria dos elementos de uma página da web.
+
+Um id deve ser descritivo para facilitar a lembrança da finalidade de um link. O link de destino é uma string contendo o caractere # e o id do elemento de destino.
+
+```
+<ol>
+ <li><a href="#top">Principal</a></li>
+ <li><a href="#bottom">Inferior</a></li>
+</ol>
+```
+
+No exemplo acima, os links para `<p id="top">` e `<h1 id="bottom">` estão incorporados em uma lista ordenada. Esses links aparecem no navegador como uma lista numerada de links. Um id é especialmente útil para organizar conteúdo pertencente a um div!
