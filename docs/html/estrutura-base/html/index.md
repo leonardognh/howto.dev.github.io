@@ -1,4 +1,6 @@
-# Estrutura Base: HMTL `<hmtl>`
+# Estrutura Base
+
+## HMTL
 
 Os arquivos HTML requerem certos elementos para configurar o documento corretamente. Podemos informar aos navegadores que estamos usando HTML iniciando nosso documento com uma declaração de tipo de documento.
 

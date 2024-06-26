@@ -37,6 +37,11 @@ nav:
               - Formulário:
                   - Introdução: html/elementos-avancados/body/form/intro/index.md
                   - Input: html/elementos-avancados/body/form/input/index.md
+                  - Select: html/elementos-avancados/body/form/select/index.md
+                  - TextArea: html/elementos-avancados/body/form/textarea/index.md
+                  - Botão Enviar: html/elementos-avancados/body/form/submit/index.md
+                  - Validações:
+                      - Introdução: html/elementos-avancados/body/form/validation/intro/index.md
   - CSS: css/index.md
   - JavaScript: js/index.md
   - TypeScript: ts/index.md

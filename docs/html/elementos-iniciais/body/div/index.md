@@ -1,4 +1,4 @@
-# Elementos Iniciais: Tag `<body>`
+# Elementos Iniciais: Body
 
 ### Divisão `<div>`
 

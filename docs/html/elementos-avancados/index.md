@@ -1,4 +1,4 @@
-# Elementos Avançados
+# Elementos Avançados: Body
 
 Existem muitos sites na Internet que exibem informações como preços de ações, resultados esportivos, dados de faturas e muito mais. Esses dados são de natureza tabular, o que significa que uma tabela geralmente é a melhor maneira de apresentar os dados.
 

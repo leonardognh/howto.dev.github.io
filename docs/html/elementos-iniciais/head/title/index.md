@@ -1,4 +1,4 @@
-# Elementos Iniciais: Tag `<head>`
+# Elementos Iniciais: Head
 
 ### Título da Página `<title>`
 

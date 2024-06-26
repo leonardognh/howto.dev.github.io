@@ -1,4 +1,6 @@
-# Estrutura Base: Head `<head>`
+# Estrutura Base
+
+## Head
 
 O elemento `<head>` faz parte desta metáfora HTML. Vai acima do nosso elemento `<body>`.
 

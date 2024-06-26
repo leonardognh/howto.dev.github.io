@@ -1,4 +1,4 @@
-# Elementos Avançados: Tag `<body>`
+# Elementos Avançados: Body
 
 ## Tabela Básica `<table>`
 

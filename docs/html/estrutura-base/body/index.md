@@ -1,4 +1,6 @@
-# Estrutura Base: Body `<body>`
+# Estrutura Base
+
+## Body
 
 Um dos principais elementos HTML que usamos para construir uma página da web é o elemento body. Somente o conteúdo dentro das tags body de abertura e fechamento pode ser exibido na tela. Esta é a aparência das tags body de abertura e fechamento:
 
