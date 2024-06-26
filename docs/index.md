@@ -4,7 +4,7 @@ Você está pronto para dominar o desenvolvimento web e se tornar um mestre em A
 
 No **HowTo Dev**, nossa missão é simplificar o aprendizado e transformar conceitos complexos em tutoriais claros e práticos. Se você é um iniciante dando seus primeiros passos ou um desenvolvedor experiente procurando aprimorar suas habilidades, temos algo para você.
 
-## O que você vai encontrar aqui:
+## O que você vai encontrar aqui
 
 - **Tutoriais Passo a Passo:** Guias detalhados que levam você do básico ao avançado.
 - **Exemplos Práticos:** Código real e projetos para você entender como tudo funciona na prática.

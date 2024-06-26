@@ -29,7 +29,14 @@ nav:
                   - Página Relativa: html/elementos-iniciais/body/a/pagina-relativa/index.md
                   - Outros Elementos: html/elementos-iniciais/body/a/outros-elementos/index.md
                   - Item da Página: html/elementos-iniciais/body/a/item-pagina/index.md
-      - Elementos Avançados: html/elementos-avancados/index.md
+      - Elementos Avançados:
+          - Body:
+              - Tabela:
+                  - Simples: html/elementos-avancados/body/table/intro/index.md
+                  - Muitos Dados: html/elementos-avancados/body/table/muitos-dados/index.md
+              - Formulário:
+                  - Introdução: html/elementos-avancados/body/form/intro/index.md
+                  - Input: html/elementos-avancados/body/form/input/index.md
   - CSS: css/index.md
   - JavaScript: js/index.md
   - TypeScript: ts/index.md
