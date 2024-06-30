@@ -6,42 +6,45 @@ theme:
 nav:
   - Início: index.md
   - HTML:
-      - Introdução: html/introducao/index.md
+      - Introdução: html/index.md
       - Estrutura Base:
-          - HTML: html/estrutura-base/html/index.md
-          - Head: html/estrutura-base/head/index.md
-          - Body: html/estrutura-base/body/index.md
+          - HTML: html/estrutura-base/html.md
+          - Head: html/estrutura-base/head.md
+          - Body: html/estrutura-base/body.md
       - Elementos Iniciais:
           - Head:
-              - Título: html/elementos-iniciais/head/title/index.md
+              - Título: html/elementos-iniciais/head/title.md
           - Body:
-              - Heading (Textos): html/elementos-iniciais/body/hn/index.md
-              - Divisor: html/elementos-iniciais/body/div/index.md
-              - Textos e Intervalo: html/elementos-iniciais/body/p-span/index.md
-              - Estilizando Textos: html/elementos-iniciais/body/estilos-textos/index.md
-              - Pular Linha: html/elementos-iniciais/body/br/index.md
-              - Lista Não Ordenada: html/elementos-iniciais/body/ul/index.md
-              - Lista Ordenada: html/elementos-iniciais/body/ol/index.md
-              - Imagem: html/elementos-iniciais/body/img/index.md
-              - Video: html/elementos-iniciais/body/video/index.md
+              - Heading (Textos): html/elementos-iniciais/body/hn.md
+              - Divisor: html/elementos-iniciais/body/div.md
+              - Textos e Intervalo: html/elementos-iniciais/body/p-span.md
+              - Estilizando Textos: html/elementos-iniciais/body/estilos-textos.md
+              - Pular Linha: html/elementos-iniciais/body/br.md
+              - Lista Não Ordenada: html/elementos-iniciais/body/ul.md
+              - Lista Ordenada: html/elementos-iniciais/body/ol.md
+              - Imagem: html/elementos-iniciais/body/img.md
+              - Video: html/elementos-iniciais/body/video.md
               - Link:
-                  - Outra Página: html/elementos-iniciais/body/a/outra-pagina/index.md
-                  - Página Relativa: html/elementos-iniciais/body/a/pagina-relativa/index.md
-                  - Outros Elementos: html/elementos-iniciais/body/a/outros-elementos/index.md
-                  - Item da Página: html/elementos-iniciais/body/a/item-pagina/index.md
+                  - Outra Página: html/elementos-iniciais/body/a/outra-pagina.md
+                  - Página Relativa: html/elementos-iniciais/body/a/pagina-relativa.md
+                  - Outros Elementos: html/elementos-iniciais/body/a/outros-elementos.md
+                  - Item da Página: html/elementos-iniciais/body/a/item-pagina.md
+          - Atributos: html/elementos-iniciais/atributos/index.md
       - Elementos Avançados:
           - Body:
               - Tabela:
-                  - Simples: html/elementos-avancados/body/table/intro/index.md
-                  - Muitos Dados: html/elementos-avancados/body/table/muitos-dados/index.md
+                  - Simples: html/elementos-avancados/body/table/intro.md
+                  - Muitos Dados: html/elementos-avancados/body/table/muitos-dados.md
               - Formulário:
-                  - Introdução: html/elementos-avancados/body/form/intro/index.md
-                  - Input: html/elementos-avancados/body/form/input/index.md
-                  - Select: html/elementos-avancados/body/form/select/index.md
-                  - TextArea: html/elementos-avancados/body/form/textarea/index.md
-                  - Botão Enviar: html/elementos-avancados/body/form/submit/index.md
+                  - Introdução: html/elementos-avancados/body/form/intro.md
+                  - Input: html/elementos-avancados/body/form/input.md
+                  - Select: html/elementos-avancados/body/form/select.md
+                  - TextArea: html/elementos-avancados/body/form/textarea.md
+                  - Botão Enviar: html/elementos-avancados/body/form/submit.md
                   - Validações:
-                      - Introdução: html/elementos-avancados/body/form/validation/intro/index.md
+                      - Introdução: html/elementos-avancados/body/form/validations/intro.md
+                      - Required (Obrigatório): html/elementos-avancados/body/form/validations/required.md
+                      - Min-Max (Mínimo e Máximo): html/elementos-avancados/body/form/validations/min-max.md
   - CSS: css/index.md
   - JavaScript: js/index.md
   - TypeScript: ts/index.md
