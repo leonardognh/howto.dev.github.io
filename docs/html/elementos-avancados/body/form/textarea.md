@@ -1,12 +1,8 @@
+{!import-css/input.md!}
+
 # Elementos Avançados: Body
 
 ## Textarea
-
-<style>
-.border {
-  border: 1px solid black
-}
-</style>
 
 Um elemento `<input>` com `type="text"` cria um campo de entrada de linha única para os usuários digitarem informações. No entanto, há casos em que os usuários precisam escrever mais informações, como uma postagem de blog. Nesses casos, em vez de usar um `<input>`, poderíamos usar `<textarea>`.
 

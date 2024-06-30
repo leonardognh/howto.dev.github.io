@@ -1,12 +1,8 @@
+{!import-css/input.md!}
+
 # Elementos Avançados: Body
 
 ## Input Base
-
-<style>
-.border {
-  border: 1px solid black
-}
-</style>
 
 Se quisermos criar um campo de entrada em nosso `<form>`, precisaremos da ajuda do elemento `<input>`.
 

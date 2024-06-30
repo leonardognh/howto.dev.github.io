@@ -3,6 +3,10 @@ docs_dir: docs/
 theme:
   name: material
 
+markdown_extensions:
+  - markdown_include.include:
+      base_path: assets
+
 nav:
   - Início: index.md
   - HTML:
